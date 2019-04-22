@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/marcianito"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="145dp"
+        android:layout_height="62dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="174dp"
+        android:layout_marginEnd="402dp"
+        android:layout_marginRight="402dp"
+        android:background="?android:attr/panelBackground"
+        android:shadowColor="@android:color/darker_gray"
+        android:text="@string/enter"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        tools:theme="?attr/textAppearanceListItem" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="257dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="58dp"
+        android:layout_marginEnd="340dp"
+        android:layout_marginRight="340dp"
+        android:width="200dp"
+        android:height="50dp"
+        android:text="@string/welcome"
+        android:textSize="45sp" />
+</RelativeLayout>

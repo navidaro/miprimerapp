@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/marcianito"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="307dp"
+        android:layout_height="94dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="144dp"
+        android:layout_marginEnd="152dp"
+        android:layout_marginRight="152dp"
+        android:width="200dp"
+        android:height="50dp"
+        android:text="@string/welcome"
+        android:textSize="55sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="206dp"
+        android:layout_height="73dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="193dp"
+        android:layout_marginRight="193dp"
+        android:background="?android:attr/panelBackground"
+        android:shadowColor="@android:color/darker_gray"
+        android:text="@string/enter"
+        android:textColor="@android:color/white"
+        android:textSize="36sp"
+        tools:theme="?attr/textAppearanceListItem" />
+
+</RelativeLayout>
